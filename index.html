@@ -15,6 +15,7 @@
   />
 
   <style>
+    /* Global font */
     html,
     body {
       font-family:
@@ -30,6 +31,20 @@
       background-color: #f8fafc;
     }
 
+    /* Override Tailwind font-sans (critical) */
+    .font-sans {
+      font-family:
+        'Noto Sans Hebrew',
+        'Noto Sans',
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Arial,
+        sans-serif !important;
+    }
+
+    /* Custom scrollbar */
     .custom-scrollbar::-webkit-scrollbar {
       width: 6px;
     }
@@ -62,8 +77,6 @@
       }
     }
   </script>
-
-  <link rel="stylesheet" href="/index.css" />
 </head>
 
 <body class="bg-slate-50 text-slate-900">
