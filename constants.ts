@@ -3,7 +3,7 @@ import { MapCell, AppConfig } from './types';
 
 export const APP_CONFIG: AppConfig = {
   lockDay: 4, // Thursday
-  lockHour: 17, // 17:00
+  lockHour: 14, // 14:00
   workingDays: [0, 1, 2, 3, 4], // Sun to Thu
 };
 
