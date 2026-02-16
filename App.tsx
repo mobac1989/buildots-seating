@@ -1203,7 +1203,7 @@ const App: React.FC = () => {
                         </div>
                         <div className="text-right">
                            <p className="font-black text-slate-800">השריון סגור כעת</p>
-                           <p className="text-xs font-bold text-slate-500">המערכת תיפתח לשריון ביום חמישי בשעה 17:00</p>
+                           <p className="text-xs font-bold text-slate-500">המערכת תיפתח לשריון ביום חמישי בשעה 14:00</p>
                         </div>
                      </div>
                   </div>
