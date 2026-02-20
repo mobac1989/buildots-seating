@@ -9,7 +9,7 @@ export const APP_CONFIG: AppConfig = {
 
 const SEAT_NAMES: Record<string, string> = {
   "1": "Yahav Sofer",
-  "2": "",
+  "2": "Bar Ziony",
   "3": "Ido Bar-Lev",
   "4": "Yarden Messika",
   "5": "Gleb Zhelezniak",
@@ -35,7 +35,7 @@ const SEAT_NAMES: Record<string, string> = {
   "25": "Yaniv Fleischer",
   "26": "Tomer Marx",
   "27": "Alisa Utkin",
-  "28": "Bar Ziony",
+  "28": "Ofir Cooper",
   "29": "Nadav Gover",
   "30": "Bar Nagauker",
   "31": "Asaf Shoshany",
