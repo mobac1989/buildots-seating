@@ -54,10 +54,7 @@ const SeatMap: React.FC<SeatMapProps> = ({ selectedDate, attendance, onSeatClick
 
   return (
     <div className="relative w-full h-full bg-[#F0F2F5] overflow-hidden group" dir="ltr">
-      {/* Drag helper */}
-      <div className="absolute top-6 left-6 z-20 bg-white/90 backdrop-blur shadow-xl px-5 py-3 rounded-2xl border border-slate-200 text-xs font-black text-slate-500 flex items-center gap-3 pointer-events-none opacity-0 group-hover:opacity-100 transition-all duration-300 uppercase tracking-widest" dir="rtl">
-        <Grip className="w-4 h-4 text-blue-500" /> גרור לנווט במפה
-      </div>
+
 
       <div 
         ref={containerRef}
