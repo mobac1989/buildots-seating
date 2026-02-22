@@ -8,8 +8,8 @@ export const APP_CONFIG: AppConfig = {
 };
 
 const SEAT_NAMES: Record<string, string> = {
-  "1": "Yahav Sofer",
-  "2": "Bar Ziony",
+  "1": "Bar Ziony",
+  "2": "Yahav Sofer",
   "3": "Ido Bar-Lev",
   "4": "Yarden Messika",
   "5": "Gleb Zhelezniak",
