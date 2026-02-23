@@ -176,7 +176,8 @@ const generateMapData = (): MapCell[] => {
           x, y, w: 1, h: 1,
           fill: '#C6E0B4', // Original Green
           label1: val,
-          label2: SEAT_NAMES[val] || ''
+          label2: SEAT_NAMES[val] || '',
+          monitorsCount: SEAT_MONITORS[val] || 1
         });
       }
     });
