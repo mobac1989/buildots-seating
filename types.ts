@@ -16,6 +16,7 @@ export interface MapCell {
   fill: string; // hex color
   label1: string; // Seat number or Zone name
   label2?: string; // Person name (optional)
+  monitorsCount?: 1 | 2;
 }
 
 // Added isOriginalOwner and completed the interface
