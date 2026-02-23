@@ -132,12 +132,17 @@ const SeatMap: React.FC<SeatMapProps> = ({ selectedDate, attendance, onSeatClick
 
                       {/* Details Area */}
                       <div className="flex flex-col gap-0.5 px-0.5">
-                        <span className="text-sm font-black text-slate-800 leading-tight">עמדה {cell.label1}</span>
-                        <div className="flex items-center gap-1 text-[9px] text-slate-400 font-bold">
-                          <User className="w-2.5 h-2.5" />
-                          <span className="truncate max-w-[100px]">{ownerName}</span>
-                        </div>
-                      </div>
+                      <span className="text-sm font-black text-slate-800 leading-tight">עמדה {cell.label1}</span>
+
+                      <span className="text-[9px] text-slate-400 font-bold">
+                      {cell.monitorsCount === 2 ? 'שני מסכים' : 'מסך אחד'}
+                      </span>
+
+                      <div className="flex items-center gap-1 text-[9px] text-slate-400 font-bold">
+                      <User className="w-2.5 h-2.5" />
+                      <span className="truncate max-w-[100px]">{ownerName}</span>
+                    </div>
+                    </div>
 
                       {/* CTA Section */}
                       {!isTaken && canBook && (
