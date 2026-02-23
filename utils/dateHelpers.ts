@@ -39,14 +39,14 @@ export const formatDayMonth = (dateStr: string): string => {
 export const isNextWeekLocked = (currentTime: Date): boolean => {
   const day = currentTime.getDay();
   const hour = currentTime.getHours();
-  // Thursday (4) at 14:00
+  // Thursday (4) at 12:00
   if (day > APP_CONFIG.lockDay) return true;
   if (day === APP_CONFIG.lockDay && hour >= APP_CONFIG.lockHour) return true;
   return false;
 };
 
 /**
- * Checks if the "Current Week" booking should be visible (Sun 08:00 to Thu 14:00)
+ * Checks if the "Current Week" booking should be visible (Sun 08:00 to Thu 12:00)
  */
 export const isCurrentWeekActive = (currentTime: Date): boolean => {
   const day = currentTime.getDay();
@@ -58,7 +58,7 @@ export const isCurrentWeekActive = (currentTime: Date): boolean => {
   // Sunday starts at 08:00
   if (day === 0 && hour < 8) return false;
   
-  // Thursday ends at 14:00
+  // Thursday ends at 12:00
     if (day === APP_CONFIG.lockDay && hour >= APP_CONFIG.lockHour) {
     return false;
   }
