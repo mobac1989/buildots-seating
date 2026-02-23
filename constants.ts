@@ -39,7 +39,7 @@ const SEAT_NAMES: Record<string, string> = {
   "29": "Nadav Gover",
   "30": "Bar Nagauker",
   "31": "Asaf Shoshany",
-  "32": "Eldar Bakelman",
+  "32": "Eldar Bakerman",
   "33": "Haleli Amiad Steinberg",
   "34": "Elias Cohenca",
   "35": "Ronen Reshef",
