@@ -114,7 +114,7 @@ const SEAT_MONITORS: Record<string, 1 | 2> = {
   "49": 1,
   "50": 2,
   "51": 2,
-  "52": 1
+  "52": 2
 };
 
 const MAP_CSV = `
