@@ -58,7 +58,8 @@ const SEAT_NAMES: Record<string, string> = {
   "48": "Moti Bachar",
   "49": "Sarah Belson",
   "50": "Aviv Aharonovich",
-  "51": "Jaymie Isaacs"
+  "51": "Jaymie Isaacs",
+  "52": "Amit Cohen"
 };
 
 const SEAT_MONITORS: Record<string, 1 | 2> = {
@@ -112,13 +113,14 @@ const SEAT_MONITORS: Record<string, 1 | 2> = {
   "48": 1,
   "49": 1,
   "50": 2,
-  "51": 2
+  "51": 2,
+  "52": 1
 };
 
 const MAP_CSV = `
 F,F,F,F,F,F,F,F,F,R,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
 F,F,F,F,F,F,F,F,F,R,F,F,F,F,F,F,F,F,F,F,F,19,21,F,23,F,F,F,F
-F,35,F,38,40,F,43,F,F,R,F,1,5,F,9,12,F,F,F,F,F,20,22,F,24,F,F,F,F
+F,35,F,38,40,F,43,F,F,R,F,1,5,F,9,12,F,52,F,F,F,20,22,F,24,F,F,F,F
 F,36,F,39,41,F,44,48,F,Wall,F,2,6,F,10,13,F,15,17,F,F,F,F,F,25,F,F,F,F
 F,37,F,F,F,F,45,49,F,R,F,3,7,F,11,14,F,16,18,F,R,R,R,F,F,F,F,F,F
 F,F,F,F,F,F,46,50,F,R,F,4,8,F,F,F,F,F,F,F,R,R,R,F,26,28,F,31,F
