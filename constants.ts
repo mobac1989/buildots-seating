@@ -12,7 +12,7 @@ const SEAT_NAMES: Record<string, string> = {
   "2": "Yahav Sofer",
   "3": "Ido Bar-Lev",
   "4": "Yarden Messika",
-  "5": "Gleb Zhelezniak",
+  "5": "Amit Cohen",
   "6": "Alex Hefetz",
   "7": "Jonathan Rozenblat",
   "8": "Jonathan Levanon",
@@ -59,7 +59,7 @@ const SEAT_NAMES: Record<string, string> = {
   "49": "Sarah Belson",
   "50": "Aviv Aharonovich",
   "51": "Jaymie Isaacs",
-  "52": "Amit Cohen"
+  "52": "Gleb Zhelezniak"
 };
 
 const SEAT_MONITORS: Record<string, 1 | 2> = {
