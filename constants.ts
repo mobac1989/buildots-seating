@@ -51,13 +51,13 @@ const SEAT_NAMES: Record<string, string> = {
   "41": "Yuval Fritz",
   "42": "Itamar Wilf",
   "43": "Yoav Wolfson",
-  "44": "Amir Cohen",
+  "44": "Ori Silberberg",
   "45": "Nitzan Friedman",
   "46": "Itai Bardan",
   "47": "Aaron Wilson",
   "48": "Moti Bachar",
   "49": "Sarah Belson",
-  "50": "Ori Silberberg",
+  "50": "Nimrod Varsano",
   "51": "Jaymie Isaacs",
   "52": "Gleb Zhelezniak"
 };
