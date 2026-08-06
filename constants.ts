@@ -12,7 +12,7 @@ const SEAT_NAMES: Record<string, string> = {
   "2": "Yahav Sofer",
   "3": "Ido Bar-Lev",
   "4": "Hadar Basson",
-  "5": "Amit Cohen",
+  "5": "Ofek Tal",
   "6": "Alex Hefetz",
   "7": "Jonathan Rozenblat",
   "8": "Jonathan Levanon",
