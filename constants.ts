@@ -31,7 +31,7 @@ const SEAT_NAMES: Record<string, string> = {
   "21": "Mika Kost",
   "22": "Yohai Ido",
   "23": "Tom Melloul",
-  "24": "Matan Georgi",
+  "24": "Eden Keidar",
   "25": "Yaniv Fleischer",
   "26": "Tomer Marx",
   "27": "Alisa Utkin",
